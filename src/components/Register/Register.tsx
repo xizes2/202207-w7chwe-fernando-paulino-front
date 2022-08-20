@@ -2,7 +2,7 @@ import { RegisterHeader, RegisterContainer } from "./RegisterStyled";
 
 const Register = (): JSX.Element => {
   return (
-    <form action="" className="register-form">
+    <form className="register-form">
       <RegisterHeader>Register</RegisterHeader>
       <RegisterContainer className="register-container">
         <input
