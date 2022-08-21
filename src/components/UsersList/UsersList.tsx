@@ -13,7 +13,6 @@ const UsersList = (): JSX.Element => {
     getUsers();
   }, [getUsers]);
 
-  console.log(users);
   return (
     <>
       <UsersListStyled className="users-list-container">
